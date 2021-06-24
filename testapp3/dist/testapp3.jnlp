@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="testapp3.jnlp">
+    <information>
+        <title>testapp3</title>
+        <vendor>thayalanpraveen</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="11.0.11+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="testapp3.jar" size="47177" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="testapp3.Testapp3" name="Testapp3"/>
+</jnlp>
+
