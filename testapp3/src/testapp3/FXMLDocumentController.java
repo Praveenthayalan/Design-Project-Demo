@@ -35,6 +35,7 @@ public class FXMLDocumentController implements Initializable {
             Scene scene = new Scene(root2, 500, 500);
         
             newWindow.setScene(scene);
+            newWindow.setResizable(false);
             newWindow.initModality(Modality.APPLICATION_MODAL);
             newWindow.show();
            
