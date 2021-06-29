@@ -23,6 +23,7 @@ public class Testapp3 extends Application {
         
         Scene scene = new Scene(root);
         
+        stage.setTitle("Student List");
         stage.setScene(scene);
         stage.show();
     }
