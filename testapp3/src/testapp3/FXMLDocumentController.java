@@ -44,6 +44,31 @@ public class FXMLDocumentController implements Initializable {
             e.printStackTrace();
         }
     }
+   
+    @FXML
+    public void Hamdaan (ActionEvent event) {
+        Stage newWindow = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Hamdaan.fxml"));
+
+        Parent root1 = null;
+        try {
+            root1 = fxmlLoader.load();
+            Scene scene = new Scene(root1, 600, 400);
+
+            newWindow.setScene(scene);
+            newWindow.setResizable(false);
+            newWindow.setTitle("BLAST-OFF!");
+            newWindow.initModality(Modality.APPLICATION_MODAL);
+            newWindow.show();
+
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+   
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
