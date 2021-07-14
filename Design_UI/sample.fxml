@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="500.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="150.0" layoutY="155.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to right top, #dcd07f, #8db377, #4e9075, #266a6a, #1d4551, #143e53, #173652, #212d4f, #393a71, #5d4390, #8948aa, #bc46bc);" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Label layoutX="25.0" layoutY="127.0" prefHeight="450.0" prefWidth="400.0" text="&#9;  This is &#10;&#9;Window&#10;              01" textFill="#fcf7f7" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Algerian" size="48.0" />
+               </font>
+            </Label>
+            <Button fx:id="login_btn" layoutX="301.0" layoutY="387.0" mnemonicParsing="false" onAction="#loginButtonAction" text="Next">
+               <effect>
+                  <Reflection />
+               </effect>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
