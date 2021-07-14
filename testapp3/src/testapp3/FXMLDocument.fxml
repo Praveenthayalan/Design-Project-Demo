@@ -10,10 +10,25 @@
          <font>
             <Font name="Bangla Sangam MN" size="22.0" />
          </font></Button>
-         <Button fx:id="button1" layoutX="155.0" layoutY="14.0" onAction="#Hamdaan" text="Hamdaan">
+          <Button fx:id="button2" layoutX="300" layoutY="14.0" onAction="#Nehan" text="Nehan">
+            <font>
+                <Font name="Bangla Sangam MN" size="22.0" />
+            </font></Button>
+            <Button fx:id="button1" layoutX="155.0" layoutY="14.0" onAction="#Hamdaan" text="Hamdaan">
          <font>
             <Font size="22.0" />
          </font>
       </Button>
+      <Button fx:id="login_btn" layoutX="301.0" layoutY="387.0" mnemonicParsing="false" onAction="#loginButtonAction" text="Oshadi">
+               
+            </Button>
+            
+      
+      <Button fx:id="playButton" layoutX="215.0" layoutY="98.0" onMouseClicked="#handlePlayGameButton" prefHeight="78.0" prefWidth="171.0" style="-fx-background-color: white; -fx-background-radius: 100;" text="Dewyan">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Button>
+      
     </children>
 </AnchorPane>

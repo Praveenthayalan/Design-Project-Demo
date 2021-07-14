@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="500.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <AnchorPane layoutX="66.0" layoutY="50.0" prefHeight="428.0" prefWidth="390.0" style="-fx-background-color: linear-gradient(to right top, #b90d2b, #ce4571, #d076ad, #cba3d7, #cfcbee, #c1c9e1, #bbc5d2, #bbbfc2, #919799, #697072, #444c4d, #222a2a);;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Label layoutX="104.0" layoutY="108.0" prefHeight="191.0" prefWidth="205.0" text="  This is&#10; Window &#10;     02" textFill="#323131" AnchorPane.bottomAnchor="151.0" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="91.0" AnchorPane.topAnchor="108.0">
+               <font>
+                  <Font name="Algerian" size="41.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
